@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+    <title>Quickmunch | Food Delivery Hub</title>
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="#">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="#">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="#">
+    <link rel="apple-touch-icon-precomposed" href="#">
+    <link rel="shortcut icon" href="#">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Flaticons -->
+    <link href="assets/css/font/flaticon.css" rel="stylesheet">
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Range Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" integrity="sha512-NWCafukXClS6fKch6bSMl/WvPzZrD1OGMf1oMAnFYXSSKZ7hgeswls+r4SdK4bFJauVwmvFf7HlMwji2TsjROA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- magnific popup -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <!-- Nice Select -->
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Custom Responsive -->
+    <link href="assets/css/responsive.css" rel="stylesheet">
+	<!-- Color Change -->
+    <link rel="stylesheet" class="color-changing" href="assets/css/color4.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;display=swap" rel="stylesheet">
+    <!-- place -->
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/56/8/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/56/8/util.js"></script></head>
+
+<body>
+
+    <div class="header">
+        <header class="full-width">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 mainNavCol">
+                        <!-- logo -->
+                        <!-- <div class="logo mainNavCol">
+                            <a href="index.html">
+                                <img src="assets/imgs/heart.svg" class="img-fluid" alt="Logo">
+                            </a>
+                        </div> -->
+                        <!-- logo -->
+                        <div class="main-search mainNavCol">
+                            <form class="main-search search-form full-width">
+                                <div class="row">
+                                    <!-- location picker -->
+                                    <div class="col-lg-6 col-md-5">
+                                        <a href="index.html">
+                                            <span class="address">Food Order</span>
+                                        </a>
+                                    </div>
+                                    <!-- location picker -->
+                                    <!-- search -->
+                                    <div class="col-lg-6 col-md-7">
+                                        <div class="search-box padding-10">
+                                            <input type="text" class="form-control" placeholder="Pizza, Burger, Chinese" fdprocessedid="ifk5af">
+                                        </div>
+                                    </div>
+                                    <!-- search -->
+                                </div>
+                            </form>
+                        </div>
+                        <div class="right-side fw-700 mainNavCol">
+                            <div class="gem-points">
+                                <a href="#"> <i class="fas fa-concierge-bell"></i>
+                                    <span>Order Now</span>
+                                </a>
+                            </div>
+                            <div class="catring parent-megamenu">
+                                <a href="#"> <span>Pages <i class="fas fa-caret-down"></i></span>
+                                    <i class="fas fa-bars"></i>
+                                </a>
+                                <div class="megamenu">
+                                    <div class="menu-style">
+                                        <div class="menu-title">
+                                            <h6 class="cat-name"><a href="#" class="text-light-black">Pages</a></h6>
+                                        </div>
+                                        <ul>
+                                            <li><a href="login.html" class="text-light-white fw-500">Login</a>
+                                            </li>
+                                            <li><a href="register.html" class="text-light-white fw-500">Sign-up</a>
+                                            </li>
+                                            <li><a href="checkout.html" class="text-light-white fw-500">Checkout</a>
+                                            </li>
+                                            <li><a href="order-details.html" class="text-light-white fw-500">Order Details</a>
+                                            </li>
+                                            <li><a href="geo-locator.html" class="text-light-white fw-500">Geo Locator</a>
+                                            </li>
+                                            <li><a href="contact.html" class="text-light-white fw-500">Contact Us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- mobile search -->
+                            <div class="mobile-search">
+                                <a href="#" data-toggle="modal" data-target="#search-box"> <i class="fas fa-search"></i>
+                                </a>
+                            </div>
+                            <!-- mobile search -->
+                            <!-- user account -->
+                            <div class="user-details p-relative">
+                                <a href="#" class="text-light-white fw-500">
+                                    <img src="" class="rounded-circle" alt="userimg"> <span>Hi, Kate</span>
+                                </a>
+                                <div class="user-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="order-details.html">
+                                        
+                                                <span class="details">Past Orders</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="order-details.html">
+                                                <span class="details">Upcoming Orders</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="details">Saved</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="details">Gift cards</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="details">Refer a friend</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="details">Perks</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="details">Account</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="details">Help</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="user-footer"><a href="#">Sign Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- mobile search -->
+                        
+                            <!-- user cart -->
+                            <div class="cart-btn cart-dropdown">
+                                <a href="#" class="text-light-green fw-700"> <i class="fas fa-shopping-bag"></i>
+                                    <span class="user-alert-cart">3</span>
+                                </a>
+                                <div class="cart-detail-box">
+                                    <div class="card">
+                                        <div class="card-header padding-15">Your Order</div>
+                                        <div class="card-body no-padding">
+                                            <div class="cat-product-box">
+                                                <div class="cat-product">
+                                                    <div class="cat-name">
+                                                        <a href="#">
+                                                            <p class="text-light-green"><span class="text-dark-white">1</span> Chilli Chicken</p> <span class="text-light-white">small, chilli chicken</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="delete-btn">
+                                                        <a href="#" class="text-dark-white"> <i class="far fa-trash-alt"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="price"> <a href="#" class="text-dark-white fw-500">
+                              $2.25
+                            </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cat-product-box">
+                                                <div class="cat-product">
+                                                    <div class="cat-name">
+                                                        <a href="#">
+                                                            <p class="text-light-green"><span class="text-dark-white">1</span> loaded cheese</p> <span class="text-light-white">small, chilli chicken</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="delete-btn">
+                                                        <a href="#" class="text-dark-white"> <i class="far fa-trash-alt"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="price"> <a href="#" class="text-dark-white fw-500">
+                              $2.25
+                            </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cat-product-box">
+                                                <div class="cat-product">
+                                                    <div class="cat-name">
+                                                        <a href="#">
+                                                            <p class="text-light-green"><span class="text-dark-white">1</span> Tortia Chicken</p> <span class="text-light-white">small, chilli chicken</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="delete-btn">
+                                                        <a href="#" class="text-dark-white"> <i class="far fa-trash-alt"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="price"> <a href="#" class="text-dark-white fw-500">
+                              $2.25
+                            </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item-total">
+                                                <div class="total-price border-0"> <span class="text-dark-white fw-700">Items subtotal:</span>
+                                                    <span class="text-dark-white fw-700">$9.99</span>
+                                                </div>
+                                                <div class="empty-bag padding-15"> <a href="#">Empty bag</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer padding-15"> <a href="checkout.html" class="btn-first green-btn text-custom-white full-width fw-500">Proceed to Checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- user cart -->
+                        </div>
+                    </div>
+                    <div class="col-sm-12 mobile-search">
+                        <div class="mobile-address">
+                            <a href="#" class="delivery-add" data-toggle="modal" data-target="#address-box"> <span class="address">Brooklyn, NY</span>
+                            </a>
+                        </div>
+                        <div class="sorting-addressbox"> <span class="full-address text-light-green">Brooklyn, NY 10041</span>
+                            <div class="btns">
+                                <div class="filter-btn">
+                                    <button type="button" fdprocessedid="qrtmuh"><i class="fas fa-sliders-h text-light-green fs-18"></i>
+                  </button> <span class="text-light-green">Sort</span>
+                                </div>
+                                <div class="filter-btn">
+                                    <button type="button" fdprocessedid="s8f5cr"><i class="fas fa-filter text-light-green fs-18"></i>
+                  </button> <span class="text-light-green">Filter</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="main-sec"></div>
+    <!-- Navigation -->
+	<section class="final-order section-padding bg-light-theme">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="main-box padding-20">
+                        <div class="row mb-xl-20">
+                            <div class="col-md-12">
+                                <div class="section-header-left">
+                                    <h3 class="text-light-black header-title fw-700">Review and place order</h3>
+                                </div>
+                                <h6 class="text-light-black fw-700 fs-14">Review address, payments, and tip to complete your purchase</h6>
+                                <h6 class="text-light-black fw-700 mb-2">Your order setting</h6>
+                                <p class="text-light-green fw-600">Delivery, ASAP (60-70m)</p>
+                                <p class="text-light-white title2 mb-1">Jhon Deo <span><a href="#">Change Details</a></span>
+                                </p>
+                                <p class="text-light-black fw-600 mb-1">Home</p>
+                                <p class="text-light-white mb-1">314 79th st 70 Brooklyn, NY 11209
+                                    <br>Cross Street, Rite Aid</p>
+                                <p class="text-light-white">(347) 1234567890</p>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="payment-sec">
+                                    
+                                    
+                                    <div class="section-header-left">
+                                        <h3 class="text-light-black header-title">Payment information</h3>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div id="accordion">
+                                                
+                                              
+                                                <div class="payment-option-tab">
+                                                    <ul class="nav nav-tabs border-0">
+                                                        <li class="nav-item"> <a class="nav-link fw-600 active" data-toggle="tab" href="#savecreditcard">Saved credit card</a>
+                                                        </li>
+                                                    
+                                                    </ul>
+                                                    <div class="tab-content">
+                                                        <div class="tab-pane active" id="savecreditcard">
+                                                            <div class="form-group">
+                                                                <div class="credit-card p-relative">
+                                                                    <input type="text" name="#" class="form-control form-control-submit" placeholder="Nhập số thẻ của bạn nhé" fdprocessedid="aye5vl">
+                                                                </div>
+                                                            </div>
+                                                   
+                                                        </div>
+                                                        <div class="tab-pane fade" id="newcreditcard">
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label class="text-light-white fw-700">Card Number</label>
+                                                                        <div class="credit-card card-front p-relative">
+                                                                            <input type="text" name="#" class="form-control form-control-submit" placeholder="1234 5678 9101 1234">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2">
+                                                                    <div class="form-group">
+                                                                        <label class="text-light-white fw-700">Expires on</label>
+                                                                        <input type="text" name="#" class="form-control form-control-submit" placeholder="12/21">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-3">
+                                                                    <div class="form-group">
+                                                                        <label class="text-light-white fw-700">Security Code</label>
+                                                                        <div class="credit-card card-back p-relative">
+                                                                            <input type="text" name="#" class="form-control form-control-submit" placeholder="123">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-3">
+                                                                    <div class="form-group">
+                                                                        <label class="text-light-white fw-700">ZIP Code</label>
+                                                                        <input type="text" name="#" class="form-control form-control-submit" placeholder="123456">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12">
+                                                                    <div class="form-group">
+                                                                        <label class="custom-checkbox">
+                                      <input type="checkbox" name="#"> <span class="checkmark"></span>
+                                      Save Credit card</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="section-header-left">
+                                                                <h3 class="text-light-black header-title">Add a tip for your driver</h3>
+                                                            </div>
+                                                            <div class="driver-tip-sec mb-xl-20">
+                                                                <ul class="nav nav-tabs">
+                                                                    <li class="nav-item"> <a class="nav-link fw-600 active" data-toggle="tab" href="#tipnewcard">Tip with Credit Card</a>
+                                                                    </li>
+                                                                    <li class="nav-item"> <a class="nav-link fw-600 disabled" data-toggle="tab" href="#newcashtip">Tip with Cash</a>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="tab-content">
+                                                                    <div class="tab-pane active" id="tipnewcard">
+                                                                        <div class="row">
+                                                                            <div class="col-md-6">
+                                                                                <div class="tip-percentage">
+                                                                                    <form>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage" checked=""> <span>15%</span>
+                                            </label>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage"> <span>25%</span>
+                                            </label>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage"> <span>25%</span>
+                                            </label>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage"> <span>30%</span>
+                                            </label>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6">
+                                                                                <div class="custom-tip">
+                                                                                    <div class="input-group mb-3">
+                                                                                        <div class="input-group-prepend"> <span class="input-group-text text-light-green fw-500">Custom tip</span>
+                                                                                        </div>
+                                                                                        <input type="text" class="form-control form-control-submit" placeholder="Custom tip">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="section-header-left">
+                                                                <h3 class="text-light-black header-title">Donate the change</h3>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="custom-checkbox">
+                                  <input type="checkbox" name="#"> <span class="checkmark"></span>
+                                  Donate $0.77 to No kid Hungry. By checking this box you agree to the Donate the Change <a href="#">Terms of use</a>  <span class="ml-2"><a href="#">Learn More</a></span>
+                                </label>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <button type="submit" class="btn-first green-btn text-custom-white full-width fw-500">Place Your Order</button>
+                                                            </div>
+                                                            <p class="text-center text-light-black no-margin">By placing your order, you agree to Quickmunch's <a href="#">terms of use</a> and <a href="#">privacy agreement</a>
+                                                            </p>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="cash">
+                                                            <p class="text-light-black">Have the cash ready when you receive your order.</p>
+                                                            <div class="section-header-left">
+                                                                <h3 class="text-light-black header-title">Donate the change</h3>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="custom-checkbox">
+                                  <input type="checkbox" name="#"> <span class="checkmark"></span>
+                                  Apologies, but you can't donate with the selected payment type</label>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <button type="submit" class="btn-first green-btn text-custom-white full-width fw-500">Place Your Order</button>
+                                                            </div>
+                                                            <p class="text-center text-light-black no-margin">By placing your order, you agree to Quickmunch's <a href="#">terms of use</a> and <a href="#">privacy agreement</a>
+                                                            </p>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="paypal">
+                                                            <p class="text-light-black">Please review your order and make any necessary changes before checking out with PayPal.</p>
+                                                            <div class="section-header-left">
+                                                                <h3 class="text-light-black header-title">Add a tip for your driver</h3>
+                                                            </div>
+                                                            <div class="driver-tip-sec mb-xl-20">
+                                                                <ul class="nav nav-tabs">
+                                                                    <li class="nav-item"> <a class="nav-link fw-600 active" data-toggle="tab" href="#paypaltipcard">Tip with Credit Card</a>
+                                                                    </li>
+                                                                    <li class="nav-item"> <a class="nav-link fw-600 disabled" data-toggle="tab" href="#paypalcashtip">Tip with Cash</a>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="tab-content">
+                                                                    <div class="tab-pane active" id="paypaltipcard">
+                                                                        <div class="row">
+                                                                            <div class="col-md-6">
+                                                                                <div class="tip-percentage">
+                                                                                    <form>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage" checked=""> <span>15%</span>
+                                            </label>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage"> <span>25%</span>
+                                            </label>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage"> <span>25%</span>
+                                            </label>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage"> <span>30%</span>
+                                            </label>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6">
+                                                                                <div class="custom-tip">
+                                                                                    <div class="input-group mb-3">
+                                                                                        <div class="input-group-prepend"> <span class="input-group-text text-light-green fw-500">Custom tip</span>
+                                                                                        </div>
+                                                                                        <input type="text" class="form-control form-control-submit" placeholder="Custom tip">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="section-header-left">
+                                                                <h3 class="text-light-black header-title">Donate the change</h3>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="custom-checkbox">
+                                  <input type="checkbox" name="#"> <span class="checkmark"></span>
+                                  Donate $0.77 to No kid Hungry. By checking this box you agree to the Donate the Change <a href="#">Terms of use</a>  <span class="ml-2"><a href="#">Learn More</a></span>
+                                </label>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <button type="submit" class="btn-first paypal-btn text-custom-white full-width fw-500">Checkout with
+                                  <img src="assets/img/pay-pal.png" alt="image">
+                                </button>
+                                                            </div>
+                                                            <p class="text-center text-light-black no-margin">By placing your order, you agree to Quickmunch's <a href="#">terms of use</a> and <a href="#">privacy agreement</a>
+                                                            </p>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="amexcheckout">
+                                                            <div class="card">
+                                                                <div class="card-header"> <a class="card-link fw-500 fs-14" data-toggle="collapse" href="#saveamex">
+                                            Saved Card
+                                          </a>
+                                                                </div>
+                                                                <div id="saveamex" class="collapse show" data-parent="#accordion">
+                                                                    <div class="card-body no-padding payment-option-tab">
+                                                                        <div class="form-group">
+                                                                            <div class="credit-card amex-card-front p-relative">
+                                                                                <input type="text" name="#" class="form-control form-control-submit" value="VISA....1877,exp 12/21">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card">
+                                                                <div class="card-header"> <a class="collapsed card-link fw-500 fs-14" data-toggle="collapse" href="#newcardamex">
+                                            Add New Card
+                                          </a>
+                                                                </div>
+                                                                <div id="newcardamex" class="collapse" data-parent="#accordion">
+                                                                    <div class="card-body no-padding payment-option-tab">
+                                                                        <div class="row">
+                                                                            <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                                                                                <div class="form-group">
+                                                                                    <label class="text-light-white fw-700">Card Number</label>
+                                                                                    <div class="credit-card amex-card-front p-relative">
+                                                                                        <input type="text" name="#" class="form-control form-control-submit" placeholder="1234 5678 9101 1234">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xl-2 col-lg-6 col-md-2 col-sm-6">
+                                                                                <div class="form-group">
+                                                                                    <label class="text-light-white fw-700">Expires on</label>
+                                                                                    <input type="text" name="#" class="form-control form-control-submit" placeholder="12/21">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xl-3 col-lg-6 col-md-3 col-sm-6">
+                                                                                <div class="form-group">
+                                                                                    <label class="text-light-white fw-700">Security Code</label>
+                                                                                    <div class="credit-card amex-card-back p-relative">
+                                                                                        <input type="text" name="#" class="form-control form-control-submit" placeholder="123">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xl-3 col-lg-6 col-md-3 col-sm-6">
+                                                                                <div class="form-group">
+                                                                                    <label class="text-light-white fw-700">ZIP Code</label>
+                                                                                    <input type="text" name="#" class="form-control form-control-submit" placeholder="123456">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-12">
+                                                                                <div class="form-group">
+                                                                                    <label class="custom-checkbox">
+                                            <input type="checkbox" name="#"> <span class="checkmark"></span>
+                                            Save Credit card</label>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="section-header-left">
+                                                                <h3 class="text-light-black header-title">Add a tip for your driver</h3>
+                                                            </div>
+                                                            <div class="driver-tip-sec mb-xl-20">
+                                                                <ul class="nav nav-tabs">
+                                                                    <li class="nav-item"> <a class="nav-link fw-600 active" data-toggle="tab" href="#tipcard">Tip with Credit Card</a>
+                                                                    </li>
+                                                                    <li class="nav-item"> <a class="nav-link fw-600 disabled" data-toggle="tab" href="#cashtip">Tip with Cash</a>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="tab-content">
+                                                                    <div class="tab-pane active" id="tipcard">
+                                                                        <div class="row">
+                                                                            <div class="col-md-6">
+                                                                                <div class="tip-percentage">
+                                                                                    <form>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage" checked=""> <span>15%</span>
+                                            </label>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage"> <span>25%</span>
+                                            </label>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage"> <span>25%</span>
+                                            </label>
+                                                                                        <label class="radio-inline text-light-green fw-600">
+                                              <input type="radio" name="tip-percentage"> <span>30%</span>
+                                            </label>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6">
+                                                                                <div class="custom-tip">
+                                                                                    <div class="input-group mb-3">
+                                                                                        <div class="input-group-prepend"> <span class="input-group-text text-light-green fw-500">Custom tip</span>
+                                                                                        </div>
+                                                                                        <input type="text" class="form-control form-control-submit" placeholder="Custom tip">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="section-header-left">
+                                                                <h3 class="text-light-black header-title">Donate the change</h3>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="custom-checkbox">
+                                  <input type="checkbox" name="#"> <span class="checkmark"></span>
+                                  Donate $0.77 to No kid Hungry. By checking this box you agree to the Donate the Change <a href="#">Terms of use</a>  <span class="ml-2"><a href="#">Learn More</a></span>
+                                </label>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <button type="submit" class="btn-first green-btn text-custom-white full-width fw-500">Place Your Order</button>
+                                                            </div>
+                                                            <p class="text-center text-light-black no-margin">By placing your order, you agree to Quickmunch's <a href="#">terms of use</a> and <a href="#">privacy agreement</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sidebar">
+                        <div class="cart-detail-box">
+                            <div class="card">
+                                <div class="card-header padding-15 fw-700">Your order from
+                                    <p class="text-light-white no-margin fw-500">Jhon Deo</p>
+                                </div>
+                                <div class="card-body no-padding" id="scrollstyle-4">
+                                    <div class="cat-product-box">
+                                        <div class="cat-product">
+                                            <div class="cat-name">
+                                                <a href="#">
+                                                    <p class="text-light-green fw-700"><span class="text-dark-white">1</span> Chilli Chicken Pizza</p> <span class="text-light-white fw-700">small, chilli chicken</span>
+                                                </a>
+                                            </div>
+                                            <div class="delete-btn">
+                                                <a href="#" class="text-dark-white"> <i class="far fa-trash-alt"></i>
+                                                </a>
+                                            </div>
+                                            <div class="price"> <a href="#" class="text-dark-white fw-500">
+                          $2.25
+                        </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cat-product-box">
+                                        <div class="cat-product">
+                                            <div class="cat-name">
+                                                <a href="#">
+                                                    <p class="text-light-green fw-700"><span class="text-dark-white">1</span> Chilli Chicken Pizza</p> <span class="text-light-white fw-700">small, chilli chicken</span>
+                                                </a>
+                                            </div>
+                                            <div class="delete-btn">
+                                                <a href="#" class="text-dark-white"> <i class="far fa-trash-alt"></i>
+                                                </a>
+                                            </div>
+                                            <div class="price"> <a href="#" class="text-dark-white fw-500">
+                          $2.25
+                        </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-total">
+                                        <div class="total-price border-0 pb-0"> <span class="text-dark-white fw-600">Items subtotal:</span>
+                                            <span class="text-dark-white fw-600">$8.50</span>
+                                        </div>
+                                        <div class="total-price border-0 pt-0 pb-0"> <span class="text-light-green fw-600">Delivery fee:</span>
+                                            <span class="text-light-green fw-600">Free</span>
+                                        </div>
+                                        <div class="total-price border-0 pt-0 pb-0"> <span class="text-dark-white fw-600">Sales tax:</span>
+                                            <span class="text-dark-white fw-600">$1.50</span>
+                                        </div>
+                                        <div class="total-price border-0 pt-0 pb-0"> <span class="text-dark-white fw-600">Tip:</span>
+                                            <span class="text-dark-white fw-600">$1.50</span>
+                                        </div>
+                                        <div class="total-price border-0 "> <span class="text-light-black fw-700">Total:</span>
+                                            <span class="text-light-black fw-700">$18.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer p-0 modify-order">
+                                    <button class="text-custom-white full-width fw-500 bg-light-green" fdprocessedid="7no7e"><i class="fas fa-chevron-left mr-2"></i> Modify Your Order</button>
+                                    <a href="#" class="total-amount"> <span class="text-custom-white fw-700">TOTAL</span>
+                                        <span class="text-custom-white fw-700">$18.50</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="section-padding bg-light-theme pt-0 u-line bg-black">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer-contact">
+                        <h6 class="text-custom-white">Need Help</h6>
+                        <ul>
+                            <li class="fw-600"><span class="text-light-white">Call Us</span> <a href="tel:" class="text-custom-white">+(347) 123 456 789</a>
+                            </li>
+                            <li class="fw-600"><span class="text-light-white">Email Us</span> <a href="mailto:" class="text-custom-white">demo@domain.com</a>
+                            </li>
+                            <li class="fw-600"><span class="text-light-white">Join our twitter</span> <a href="#" class="text-custom-white">@quickmunch</a>
+                            </li>
+                            <li class="fw-600"><span class="text-light-white">Join our instagram</span> <a href="#" class="text-custom-white">@quickmunch</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer-links">
+                        <h6 class="text-custom-white">Get to Know Us</h6>
+                        <ul>
+                            <li><a href="#" class="text-light-white fw-600">About Us</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Blog</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Socialize</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Quickmunch</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Perks</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer-links">
+                        <h6 class="text-custom-white">Let Us Help You</h6>
+                        <ul>
+                            <li><a href="#" class="text-light-white fw-600">Account Details</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Order History</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Find restaurant</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Login</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Track order</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer-links">
+                        <h6 class="text-custom-white">Doing Business</h6>
+                        <ul>
+                            <li><a href="#" class="text-light-white fw-600">Suggest an Idea</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Be a Partner restaurant</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Create an Account</a>
+                            </li>
+                            <li><a href="#" class="text-light-white fw-600">Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer-links">
+                        <h6 class="text-custom-white">Download Apps</h6>
+                        <div class="appimg">
+                            <a href="#">
+                                <img src="assets/imgs/playstore.jpg" class="img-fluid" alt="app logo">
+                            </a>
+                        </div>
+                        <div class="appimg">
+                            <a href="#">
+                                <img src="assets/imgs/appstore.jpg" class="img-fluid" alt="app logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer-contact">
+                        <h6 class="text-custom-white">Newsletter</h6>
+                        <form class="subscribe_form">
+                            <div class="input-group">
+                                <input type="text" class="form-control form-control-submit" name="email" placeholder="Enter your email" fdprocessedid="3tyyq">
+                                <span class="input-group-btn">
+                      <button class="btn btn-second btn-submit" type="button" fdprocessedid="dtj8eq"><i class="fas fa-paper-plane"></i></button>
+                 </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="ft-social-media">
+                        <h6 class="text-center text-custom-white">Follow us</h6>
+                        <ul>
+                            <li> <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li> <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li> <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li> <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                            <li> <a href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright bg-black">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 text-center medewithlove align-self-center">
+                    <a href="/FoodOrder/" class="text-custom-white">Made with Real <i class="fas fa-heart"></i> Metropolitantheme</a>
+                </div>
+                <div class="col-lg-4">
+                    <div class="copyright-text"> <span class="text-light-white">© <a href="#" class="text-light-white">Metropolitantheme</a> - 2024 | All Right Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+    <!-- modal boxes -->
+    <div class="modal fade" id="address-box">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title fw-700">Change Address</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="location-picker">
+                        <input type="text" class="form-control" placeholder="Enter a new address">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="search-box">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <div class="search-box p-relative full-width">
+                        <input type="text" class="form-control" placeholder="Pizza, Burger, Chinese">
+                    </div>
+                </div>
+                <div class="modal-body"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Place all Scripts Here -->
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Range Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js" integrity="sha512-kZsqvmw94Y8hyhwtWZJvDtobwQ9pLhF1DuIvcqSuracbRn6WJs1Ih+04fpH/8d1CFKysp7XA1tR0Aa2jKLTQUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Swiper Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Nice Select -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha512-NqYds8su6jivy1/WLoW8x1tZMRD7/1ZfhWG/jcRQLOzV1k1rIODCpMgoBnar5QXshKJGV7vi0LXLNXPoFsM5Zg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- magnific popup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnd9JwZvXty-1gHZihMoFhJtCXmHfeRQg"></script>
+    <!-- sticky sidebar -->
+    <script src="assets/js/sticksy.js"></script>
+    <!-- Munch Box Js -->
+    <script src="assets/js/quickmunch.js"></script>
+    <!-- /Place all Scripts Here -->
+
+
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
